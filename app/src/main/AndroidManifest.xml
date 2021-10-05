@@ -25,7 +25,8 @@
         <activity android:name=".screens.PlayerNameScreen5" />
         <activity android:name=".screens.About" />
         <activity android:name=".screens.How2Play" />
-        <activity android:name=".screens.SplashScreen">
+        <activity android:name=".screens.SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
