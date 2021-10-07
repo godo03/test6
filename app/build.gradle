@@ -5,7 +5,7 @@ android {
         release {
             storeFile file('C:\\Users\\hiimr\\keyStore\\keystore.jks')
             storePassword 'godortea03'
-            keyAlias 'k0'
+            keyAlias 'key0'
             keyPassword 'godortea03'
         }
     }
