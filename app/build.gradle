@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\hiimr\\keyStore\\keystore.jks')
+            storePassword 'godortea03'
+            keyAlias 'k0'
+            keyPassword 'godortea03'
+        }
+    }
     compileSdkVersion 31
     buildToolsVersion '31.0.0'
     defaultConfig {
