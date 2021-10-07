@@ -396,6 +396,7 @@ public class MainActivity2 extends AppCompatActivity {
         tvQuestionNumber.setText("Question#: "+ (1+qid));
         currentQ=question.get(qid);
         cansQ = cquestion.get(qid);
+
         txtQuestion.setText(Html.fromHtml(currentQ.getQuestion()));
 
         insertData();
